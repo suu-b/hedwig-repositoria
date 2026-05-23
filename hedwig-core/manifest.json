@@ -1,0 +1,32 @@
+{
+  "courses": [
+    {
+      "id": "systems-thinking-ou",
+      "title": "Systems Thinking",
+      "institution": "Open University",
+      "description": "Complex systems, feedback loops, and emergent behaviour.",
+      "color": "#4A7C6F",
+      "path": "../systems-thinking-ou",
+      "sections": [
+        {
+          "title": "Index",
+          "file": "index.md"
+        },
+        {
+          "title": "Quotes",
+          "children": [
+            { "title": "Week 1", "file": "quotes/week-01.md" },
+            { "title": "Week 2", "file": "quotes/week-02.md" }
+          ]
+        },
+        {
+          "title": "Exercises",
+          "children": [
+            { "title": "Exercise 1 — Defining a System", "file": "exercises/exercise-01.md" },
+            { "title": "Exercise 2 — Feedback Loops", "file": "exercises/exercise-02.md" }
+          ]
+        }
+      ]
+    }
+  ]
+}

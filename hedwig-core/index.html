@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Hedwig — a minimal e-book reader for your course notes.">
+  <title>Hedwig</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+</head>
+<body>
+
+<div id="app">
+
+  <!-- ── Header ───────────────────────────────────────── -->
+  <header id="header">
+    <div class="header-left">
+      <button class="icon-btn menu-btn" id="menu-btn" title="Toggle sidebar" aria-label="Toggle sidebar">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="3" y1="12" x2="21" y2="12"/>
+          <line x1="3" y1="6" x2="21" y2="6"/>
+          <line x1="3" y1="18" x2="21" y2="18"/>
+        </svg>
+      </button>
+      <span class="logo" id="logo">Hedwig</span>
+      <div class="breadcrumb" id="breadcrumb"></div>
+    </div>
+    <div class="header-right">
+      <button class="icon-btn" id="theme-btn" title="Toggle theme" aria-label="Toggle theme">
+        <!-- filled by JS -->
+      </button>
+    </div>
+  </header>
+
+  <!-- ── Sidebar ──────────────────────────────────────── -->
+  <aside id="sidebar">
+    <div class="sidebar-header">
+      <div class="sidebar-title" id="sidebar-header-title">Courses</div>
+    </div>
+    <div class="sidebar-content" id="sidebar-content">
+      <!-- filled by JS -->
+    </div>
+  </aside>
+
+  <!-- ── Sidebar mobile overlay ───────────────────────── -->
+  <div class="sidebar-overlay" id="sidebar-overlay"></div>
+
+  <!-- ── Main ─────────────────────────────────────────── -->
+  <main id="main">
+
+    <!-- Home View -->
+    <div id="home-view">
+      <div class="home-greeting">
+        <h1 class="home-title">Repositoria</h1>
+        <p class="home-subtitle">Notes, quotes, and exercises — where thinking accumulates.</p>
+      </div>
+      <div class="courses-section-label">Active</div>
+      <div class="home-course-grid" id="home-grid">
+        <!-- filled by JS -->
+      </div>
+    </div>
+
+    <!-- Reader View -->
+    <div id="reader-view">
+      <div id="reader-content">
+        <!-- filled by JS -->
+      </div>
+    </div>
+
+  </main>
+
+</div>
+
+<script src="hedwig-md.js"></script>
+<script src="hedwig-app.js"></script>
+</body>
+</html>
