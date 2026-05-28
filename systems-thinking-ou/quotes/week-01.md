@@ -1,13 +1,13 @@
 # Week 1 — Quotes
 
-**On the nature of systems:**
+Week 1 was an introduction to the course and the subject.
 
-> "A system is a set of things interconnected in such a way that they produce their own pattern of behaviour over time." — Instructor, Week 1 Lecture
+**On Ideas**
 
-**On emergence:**
+> "Ideas can be quite easy to understand but can be very difficult to practice & can be counter to the predominant ways of knowing, thinking, and acting in most societies. Thus, people not only may be indifferent but antagonistic - because such an approach challenges their beliefs and assumptions"
 
-> "The behaviour of a system cannot be understood by analysing its parts in isolation. The whole is not merely the sum — it is a *product* of relationships." — Course Material, Unit 1.2
+**Systems Thinking**
 
-**Personal note:**
+> "Systems thinking requires a more profound approach to learning and to understanding the implications of particular ideas"
 
-The instructor made a sharp point here: most people confuse complicated with complex. A jumbo jet is complicated. A traffic jam is complex. Different animals entirely.
+For these reasons, our approach towards the subject is **Reflective**.

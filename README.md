@@ -6,7 +6,7 @@ A minimal, offline-first e-book reader for course notes. No build step. No frame
 
 ## What It Is
 
-You are doing courses. You want to keep quotes from instructors and write exercises as proper essays. You do not want Notion. You want ownership, plain text, and a reader that stays out of your way.
+You are doing courses. You want to keep quotes from instructors, track course outcomes, and write exercises as proper essays. You do not want Notion. You want ownership, plain text, and a reader that stays out of your way.
 
 Hedwig is that reader. Your notes live as Markdown files. A small frontend — `hedwig-core` — reads them and renders them cleanly. One GitHub repository holds everything. One `manifest.json` registers your courses. Done.
 
@@ -29,6 +29,8 @@ your-repo/
 │   ├── quotes/
 │   │   ├── week-01.md
 │   │   └── week-02.md
+│   ├── outcomes/
+│   │   └── course-outcomes.md
 │   └── exercises/
 │       ├── exercise-01.md
 │       └── exercise-02.md
@@ -50,6 +52,8 @@ my-new-course/
 ├── index.md
 ├── quotes/
 │   └── week-01.md
+├── outcomes/
+│   └── course-outcomes.md
 └── exercises/
     └── exercise-01.md
 ```
@@ -70,6 +74,12 @@ my-new-course/
         {
           "title": "Index",
           "file": "index.md"
+        },
+        {
+          "title": "Course Outcomes",
+          "children": [
+            { "title": "Outcomes", "file": "outcomes/course-outcomes.md" }
+          ]
         },
         {
           "title": "Quotes",

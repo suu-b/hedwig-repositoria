@@ -13,10 +13,15 @@
           "file": "index.md"
         },
         {
+          "title": "Course Outcomes",
+          "children": [
+            { "title": "Outcomes", "file": "outcomes/course-outcomes.md" }
+          ]
+        },
+        {
           "title": "Quotes",
           "children": [
-            { "title": "Week 1", "file": "quotes/week-01.md" },
-            { "title": "Week 2", "file": "quotes/week-02.md" }
+            { "title": "Week 1", "file": "quotes/week-01.md" }
           ]
         },
         {

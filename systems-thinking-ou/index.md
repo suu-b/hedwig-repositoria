@@ -2,10 +2,13 @@
 
 > A course on understanding complex systems, feedback loops, and emergent behaviour.
 
+## Course Outcomes
+
+- [Outcomes](outcomes/course-outcomes.md)
+
 ## Quotes
 
 - [Week 1 Quotes](quotes/week-01.md)
-- [Week 2 Quotes](quotes/week-02.md)
 
 ## Exercises
 
